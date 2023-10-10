@@ -244,7 +244,7 @@ const testimonials = [
     name: "Marius",
     designation: "Software Developer",
     company: "Freelancer",
-    image: "/src/assets/ProfileImage.jpeg",
+    image: "/src/assets/personal.png",
   },
   /*
   {
