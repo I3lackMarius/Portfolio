@@ -1,5 +1,4 @@
 import {
-  creator,
   javascript,
   html,
   css,
@@ -10,6 +9,7 @@ import {
   threejs,
 } from "../assets";
 import PERNappDemoFrontend from "../assets/PERNappDemoFrontend.gif";
+import photocard from "../assets/photocard.gif";
 import WantYou from "../assets/WantYou.jpg";
 import free from "../assets/free.jpeg";
 import psql from "../assets/psql.png";
@@ -287,6 +287,27 @@ const projects = [
     ],
     image: PERNappDemoFrontend,
     source_code_link: "https://facerecognitionapp-3t77.onrender.com",
+  },
+  {
+    name: "Wp+Woo e-commerce with 100% custom product and price",
+    description:
+      "I've created a minimalist e-commerce site using WordPress, WooCommerce, Google Ads, and Stripe as payment method. It features a powerful product configurator for customizing gadgets and seamless order automation with the Danea EasyFatt CRM software.",
+    tags: [
+      {
+        name: "WordPress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WooCommerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: photocard,
+    source_code_link: "https://etichettephotocard.it/",
   },
   {
     name: "Newer are yet to come",
