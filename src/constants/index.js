@@ -205,8 +205,7 @@ const experiences = [
     iconBg: "#fff",
     date: "April 2023 - Present",
     points: [
-      "Starting a new journey, I am investing all the experience I have acquired to date to achieve a great goal, becoming a successful entrepreneur in the IT sector in an industrial context. I am excited to welcome new clients, projects, and greater challenges, also thrilled to gain and expand even more my knowledge!",
-      "My first project turns out to be an e-commerce for an advertising printing company, I developed a new site with wordpress and woocommerce, also integrating an interface with the invoice management software, contributed to renewing the social profiles by defining an article template, finally I created two marketing campaigns on social networks and Google.",
+      "Embracing the entrepreneurial spirit, I'm channeling my cumulative experience into creating cutting-edge solutions. My projects, like the e-commerce platform for a printing company, showcase my ability to integrate diverse technologies, from web development with WordPress and WooCommerce to crafting marketing strategies. This chapter is about pushing boundaries and exploring new horizons in tech.",
     ],
   },
 ];
@@ -217,7 +216,7 @@ const testimonials = [
     name: "Marius",
     designation: "Software Developer",
     company: "Freelancer",
-    image: "/src/assets/personal.png",
+    image: "https://avatars.githubusercontent.com/u/58807528?v=4",
   },
   /*
   {
@@ -243,7 +242,7 @@ const projects = [
   {
     name: "Face Recognition Web App",
     description:
-      "I'm excited to announce my latest DEMO project - a PERN full-stack web app that allows users to register, sign in, and upload a picture to be analyzed by an external AI using Clarifai APIs. I also used the particles.js library to set a very nice background with a parallax effect. The app uses bcrypt for password encryption, ensuring the security of user data. The challenge of this project was to ensure efficient communication between the nodejs, the external AI, and the database to provide fast results to the frontend. While the app is new and there aren't any metrics or feedback to share yet, I encourage you to check it out and let me know your thoughts.",
+      "A showcase of my full-stack capabilities, combining the PERN stack with Clarifai's AI for a seamless user experience. This project reflects my ability to integrate complex technologies and prioritize user security.",
     tags: [
       {
         name: "react",
@@ -264,7 +263,7 @@ const projects = [
   {
     name: "Wp+Woo e-commerce with 100% custom product and price",
     description:
-      "I've created a minimalist e-commerce site using WordPress, WooCommerce, Google Ads, and Stripe as payment method. It features a powerful product configurator for customizing gadgets and seamless order automation with the Danea EasyFatt CRM software.",
+      "A minimalist yet powerful e-commerce site, demonstrating my proficiency in WordPress, WooCommerce, and online marketing. It's a testament to my ability to deliver tailored solutions that drive business success.",
     tags: [
       {
         name: "WordPress",

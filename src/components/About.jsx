@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a driven and adaptable individual, committed to reaching my
-        objectives with effective solutions. Through my extensive work
-        background, I have perfected my abilities in production, leadership,
-        teamwork, and client communication to achieve ambitious goals. Let's
-        work together to bring your ideas to life!
+        Welcome to my world of technology, innovation, and self-taught
+        expertise. My journey in tech began from the ground up, driven by
+        curiosity and a relentless pursuit of knowledge. Through a blend of
+        formal roles and self-directed learning, I've crafted a unique skill set
+        in web development, database management, and software automation. My
+        passion lies in transforming complex ideas into reality, using a
+        combination of technical acumen and creative problem-solving. Join me in
+        exploring the endless possibilities of technology!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
