@@ -12,13 +12,13 @@ import PERNappDemoFrontend from "../assets/PERNappDemoFrontend.gif";
 import photocard from "../assets/photocard.gif";
 import WantYou from "../assets/WantYou.jpg";
 import free from "../assets/free.jpeg";
-import psql from "../assets/psql.png";
-import sea from "../assets/sea.png";
-import leonardo from "../assets/leonardo.png";
-import bandera from "../assets/bandera.png";
-import autoware from "../assets/autoware.png";
-import Photocard from "../assets/Photocard.png";
-import stema from "../assets/stema.png";
+import psql from "../assets/tech/psql.png";
+import sea from "../assets/company/sea.png";
+import leonardo from "../assets/company/leonardo.png";
+import bandera from "../assets/company/bandera.png";
+import autoware from "../assets/company/autoware.png";
+import Photocard from "../assets/company/Photocard.png";
+import stema from "../assets/company/stema.png";
 import nodejs from "../assets/tech/nodejs.png";
 import pern from "../assets/tech/pern.webp";
 import DB from "../assets/tech/DB.png";
@@ -50,12 +50,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "PERN Stack Developer",
+    title: "Full Stack Developer",
     icon: pern,
-  },
-  {
-    title: "Frontend Developer",
-    icon: reactjs,
   },
   {
     title: "Relational DBs Developer",
@@ -66,11 +62,15 @@ const services = [
     icon: nodejs,
   },
   {
+    title: "React Developer",
+    icon: reactjs,
+  },
+  {
     title: "Automation Developer",
     icon: automation,
   },
   {
-    title: "Genius, Billionaire, Playboy, Philanthropist",
+    title: "Genius, Billionaire, Playboy, Philanthropist 🤪",
     icon: ironman,
   },
 ];
@@ -126,9 +126,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2013",
     points: [
-      "Period of school internship where I carried out various activities on both hardware and software side, ",
-      "such as cloning of operating system on various airport devices, computer assembly, technical assistance,",
-      "call center and dedicated effort into creating an app that managed the data server on the airport intranet.",
+      "School internship where I carried out various activities on both hardware and software side, such as clonation of operating system on several airport devices, computer assembly, technical assistance, and invested my effort into creating an app that managed the data server on the airport intranet.",
     ],
   },
   {
@@ -138,12 +136,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2015 – 2016",
     points: [
-      "As a professional in my field, I was mainly involved in installing wiring in all three sections of ",
-      "a helicopter. It was my duty to ensure that all electronic devices responsible for managing the ",
-      "hydraulic systems, engines, antennas, and sensors were installed and correctly connected to the ",
-      "cockpit system controls. In addition, I was responsible for verifying the correct operation of all ",
-      "electronic components, necessary for stabilizing the entire cabin of military, private, and rescue ",
-      "AW139 helicopters during the final assembly line.",
+      "As a professional in my field, I was mainly involved in installing wiring in the three sections of a helicopter. It was my duty to ensure that all the electronic devices responsible for managing the hydraulic systems, engines, and sensors were installed and correctly connected to the cockpit system controls. In addition, I was responsible for verifying the correct operation of all electronic components involved into stabilizing the entire cabin of military, private, and rescue AW139 helicopters during the final assembly line.",
     ],
   },
   {
@@ -153,14 +146,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2016 – 2017",
     points: [
-      "In this company, I was responsible for the installation of cable raceways, preparation of wiring, ",
-      "organizing materials required for projects worldwide, and connecting machines to control panels. ",
-      "To ensure the successful completion of each project, I was able to efficiently delegate tasks among ",
-      "team members and assign jobs as necessary.",
-      "My duties included:",
-      "• Installing wiring raceways, industrial control panels, devices, and sensors.",
-      "• Preparing all cables and connecting them to machine boards.",
-      "• Disassembling and repairing outdated systems.",
+      "In this company, I was responsible for the installation of cable raceways, preparation of wiring, organizing materials required for projects worldwide, and connecting machines to control panels. To ensure the successful completion of each project, I was able to efficiently delegate tasks among team members and assign jobs as necessary. My duties included:",
+      "Installing wiring raceways, industrial control panels, devices, and sensors.",
+      "Preparing all cables and connecting them to machine boards.",
+      "Disassembling and repairing outdated systems.",
     ],
   },
   {
@@ -170,16 +159,8 @@ const experiences = [
     iconBg: "#fff",
     date: "2017 - 2019",
     points: [
-      "As a certified F-35 structural technician, I have played a main role in the full-wing assembly line. ",
-      "My expertise in teamwork, coordination, and division of work allowed our team to achieve remarkable ",
-      "results in quality control and testing of the finished product. Thanks to my fast-growing experience ",
-      "and the support of the team members, we have successfully increased the average production from 2.7 ",
-      "modules per month to a remarkable 3.4 in just one year of continuous evolution.",
-      "",
-      "My responsibilities include executing machining jobs in cascade phases, executing control checks on ",
-      "the final production line, training new workers on the production method, and researching new ",
-      "solutions to optimize the production phases' flow. I was confident in my abilities to perform these ",
-      "tasks and contribute to the team's success.",
+      "As a certified F-35 structural technician, I have played a main role in the full-wing assembly line. My contribution in teamwork, coordination, and task assignment allowed our team to achieve a relevant goal in quality control and testing of the finished product. Thanks to my fast-growing experience and the support of the team members, we have successfully increased the average production from 2.7 modules per month to a remarkable 3.4 in just one year of continuous evolution.",
+      "My responsibilities include executing machining jobs in cascade phases, executing control checks on the final production line, training new workers on the production method, and researching new solutions to optimize the production phases' flow. I was confident in my abilities to perform these tasks and contribute to the team's success.",
     ],
   },
   {
@@ -189,10 +170,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2019 – June 2020",
     points: [
-      "As a full stack web developer, I confidently improved and invested my expertise in Javascript, ",
-      "HTML5, CSS3, and SQL to build innovative web interfaces for MES and Integrated Systems through ",
-      "Thingworx, the web IoT platform based on Apache Tomcat server. My involvement in IoT projects was",
-      "primarily based on agile methodology, and I efficiently managed tasks through Jira and Confluence.",
+      "As a full stack web developer, I confidently improved and invested my expertise in Javascript, HTML5, CSS3, and SQL to build innovative web interfaces for MES and Integrated Systems through Thingworx, the web IoT platform based on Apache Tomcat server. My involvement in IoT projects was primarily based on agile methodology, and I efficiently managed tasks through Jira and Confluence.",
     ],
   },
   {
@@ -202,13 +180,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2020 – April 2023",
     points: [
-      "I successfully led the entire process of product development, including testing of the environment,",
-      "on-site installation and commissioning of HMI and SCADA devices (Siemens and Rockwell) worldwide. ",
-      "Additionally, I dedicated significant resources into redesigning the external database, the data exchange",
-      "method, and upgrading the data management interface for the entire production data management system.",
+      "I successfully led the entire process of product development, including testing of the environment, on-site installation and commissioning of HMI and SCADA devices (Siemens and Rockwell) worldwide. ",
+      "Additionally, I dedicated significant resources into redesigning the external database, the data exchange method, and upgrading the data management interface for the entire production data management system.",
     ],
   },
-  {
+  /*{
     title: "Assistant to management",
     company_name: "Photocard",
     icon: Photocard,
@@ -218,11 +194,10 @@ const experiences = [
       "I played a crucial role in my family's business, Photocard, as part of the team responsible for ",
       "creating advertising graphics for both national and international campaigns. My responsibilities ",
       "included a wide range of tasks such as acquiring new clients, representing the company at various ",
-      "fairs, filling in for employees when necessary, and managing various administrative duties. ",
-      "I successfully created a digital market to grow the business revenues and attract new clients ",
-      "to expand the portfolio.",
+      "fairs, filling in for employees when necessary, and managing part of the administration. ",
+      "I successfully created a digital market to grow the business revenues and attract new clients.",
     ],
-  },
+  },*/
   {
     title: "Software Developer",
     company_name: "Freelancer",
@@ -230,10 +205,8 @@ const experiences = [
     iconBg: "#fff",
     date: "April 2023 - Present",
     points: [
-      "I successfully led the entire process of product development, including testing of the environment,",
-      "on-site installation and commissioning of HMI and SCADA devices (Siemens and Rockwell) worldwide. ",
-      "Additionally, I dedicated significant resources into redesigning the external database, the data exchange",
-      "method, and upgrading the data management interface for the entire production data management system.",
+      "Starting a new journey, I am investing all the experience I have acquired to date to achieve a great goal, becoming a successful entrepreneur in the IT sector in an industrial context. I am excited to welcome new clients, projects, and greater challenges, also thrilled to gain and expand even more my knowledge!",
+      "My first project turns out to be an e-commerce for an advertising printing company, I developed a new site with wordpress and woocommerce, also integrating an interface with the invoice management software, contributed to renewing the social profiles by defining an article template, finally I created two marketing campaigns on social networks and Google.",
     ],
   },
 ];
@@ -244,7 +217,7 @@ const testimonials = [
     name: "Marius",
     designation: "Software Developer",
     company: "Freelancer",
-    image: "/src/assets/personal-703ccc56.png",
+    image: "/src/assets/personal.png",
   },
   /*
   {
