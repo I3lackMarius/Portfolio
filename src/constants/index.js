@@ -69,10 +69,10 @@ const services = [
     title: "Automation Developer",
     icon: automation,
   },
-  {
+  /*{
     title: "Genius, Billionaire, Playboy, Philanthropist 🤪",
     icon: ironman,
-  },
+  },*/
 ];
 
 const technologies = [
