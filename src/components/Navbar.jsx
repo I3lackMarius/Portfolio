@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import personal from "../assets/personal.png";
 
@@ -12,6 +11,13 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const { t, i18n } = useTranslation("global");
+  const [language, setLanguage] = useState("gb");
+
+  const toggleLanguage = () => {
+    const newLanguage = language === "gb" ? "it" : "gb";
+    setLanguage(newLanguage);
+    i18n.changeLanguage(newLanguage);
+  };
 
   return (
     <nav
@@ -32,22 +38,23 @@ const Navbar = () => {
             className="w-14 h-14 object-contain"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Marius &nbsp;
-            <span className="sm:block hidden">| JS Developer</span>
+            <span className="sm:block hidden">{t("Navbar.Iam")}</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
-            <li
-              key={Link.id}
-              className={`${
-                active === Link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
-            >
-              <a href={`#${Link.id}`}>{Link.title}</a>
-            </li>
-          ))}
+        <ul className="list-none hidden sm:flex flex-row gap-5">
+          {Object.entries(t("Navbar.navLinks", { returnObjects: true })).map(
+            ([key, value]) => (
+              <li
+                key={key}
+                className={`${
+                  active === value ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(value)}
+              >
+                <a href={`#${key}`}>{value}</a>
+              </li>
+            )
+          )}
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -59,29 +66,38 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 mx-2 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex sm:flex justify-end items-start flex-col gap-4">
-              {navLinks.map((Link) => (
+              {Object.entries(
+                t("Navbar.navLinks", { returnObjects: true })
+              ).map(([key, value]) => (
                 <li
-                  key={Link.id}
+                  key={key}
                   className={`${
-                    active === Link.title ? "text-white" : "text-secondary"
+                    active === value ? "text-white" : "text-secondary"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(Link.title);
+                    setActive(value);
                   }}
                 >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
+                  <a href={`#${key}`}>{value}</a>
                 </li>
               ))}
             </ul>
           </div>
         </div>
-
-        <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-        <button onClick={() => i18n.changeLanguage("it")}>IT</button>
+        <button
+          onClick={toggleLanguage}
+          className="rounded-full p-1 bg-blue-300 focus:outline-none mx-2 "
+        >
+          <img
+            src={`https://flagsapi.com/${language.toUpperCase()}/flat/24.png`}
+            alt="Language flag"
+            className="w-6 h-6"
+          />
+        </button>
       </div>
     </nav>
   );

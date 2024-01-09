@@ -19,12 +19,12 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            {t("heroMe.Iam")}
+            {t("Hero.Iam")}
             <span className="text-[#5ed1ff]">Marius</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A self-made dev, building <br className="sm:block hidden"></br>
-            user interfaces and websites.
+            {t("Hero.Description1")} <br className="sm:block hidden"></br>
+            {t("Hero.Description2")}
           </p>
         </div>
       </div>

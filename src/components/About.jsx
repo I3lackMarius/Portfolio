@@ -7,6 +7,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { useTranslation } from "react-i18next";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -36,31 +38,33 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const { t } = useTranslation("global");
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{t("About.Description1")}</p>
+        <h2 className={styles.sectionHeadText}>{t("About.Title")}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my world of technology, innovation, and self-taught
-        expertise. My journey in tech began from the ground up, driven by
-        curiosity and a relentless pursuit of knowledge. Through a blend of
-        formal roles and self-directed learning, I've crafted a unique skill set
-        in web development, database management, and software automation. My
-        passion lies in transforming complex ideas into reality, using a
-        combination of technical acumen and creative problem-solving. Join me in
-        exploring the endless possibilities of technology!
+        {t("About.Description2")} <br className="sm:block hidden"></br>{" "}
+        <br className="sm:block hidden"></br>
+        {t("About.Description3")}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+        {Object.entries(t("About.services", { returnObjects: true })).map(
+          (service, index) => (
+            <ServiceCard
+              key={`project-${index}`}
+              index={index}
+              {...service[1]}
+            />
+          )
+        )}
       </div>
     </>
   );

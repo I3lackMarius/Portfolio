@@ -1,0 +1,261 @@
+{
+  "Navbar": {
+    "Iam": "JS Developer",
+    "navLinks": {
+      "About": "About",
+      "Experience": "Work",
+      "Works": "Projects",
+      "Feedbacks": "Feedbacks",
+      "Contact": "Contact"
+    }
+  },
+  "Hero": {
+    "Iam": "Hey, I'm ",
+    "Description1": "A self-made dev, building ",
+    "Description2": "user interfaces and websites."
+  },
+  "About": {
+    "Title": "Overview.",
+    "Description1": "INTRODUCTION",
+    "Description2": "Welcome to my world of technology, innovation, and self-taught expertise. My journey in tech began from the ground up, driven by curiosity and a relentless pursuit of knowledge. Through a blend of formal roles and self-directed learning, I've crafted a unique skill set in web development, database management, and software automation. My passion lies in transforming complex ideas into reality, using a combination of technical acumen and creative problem-solving.",
+
+    "Description3": "Join me in exploring the endless possibilities of technology!",
+    "services": [
+      {
+        "title": "Full Stack Developer",
+        "icon": "/src/assets/tech/pern.webp"
+      },
+      {
+        "title": "Relational DBs Developer",
+        "icon": "/src/assets/tech/DB.png"
+      },
+      {
+        "title": "nodejs Developer",
+        "icon": "/src/assets/tech/nodejs.png"
+      },
+      {
+        "title": "React Developer",
+        "icon": "/src/assets/tech/reactjs.png"
+      },
+      {
+        "title": "Automation Developer",
+        "icon": "/src/assets/tech/automation.png"
+      }
+    ]
+  },
+  "Experience": {
+    "Title": "Work Experience.",
+    "Description": "WHAT I HAVE DONE SO FAR",
+    "Experiences": [
+      {
+        "title": "ICT Internship",
+        "company_name": "SEA Milan Airport",
+        "icon": "/src/assets/company/sea.png",
+        "iconBg": "#E6DEDD",
+        "date": "2013",
+        "points": [
+          "School internship where I carried out various activities on both hardware and software side, such as clonation of operating system on several airport devices, computer assembly, technical assistance, and invested my effort into creating an app that managed the data server on the airport intranet."
+        ]
+      },
+      {
+        "title": "Avioelectric technician",
+        "company_name": "Leonardo",
+        "icon": "/src/assets/company/leonardo.png",
+        "iconBg": "#E6DEDD",
+        "date": "2015 – 2016",
+        "points": [
+          "As a professional in my field, I was mainly involved in installing wiring in the three sections of a helicopter. It was my duty to ensure that all the electronic devices responsible for managing the hydraulic systems, engines, and sensors were installed and correctly connected to the cockpit system controls. In addition, I was responsible for verifying the correct operation of all electronic components involved into stabilizing the entire cabin of military, private, and rescue AW139 helicopters during the final assembly line."
+        ]
+      },
+      {
+        "title": "Electrical technician",
+        "company_name": "Bandera",
+        "icon": "/src/assets/company/bandera.png",
+        "iconBg": "#E6DEDD",
+        "date": "2016 – 2017",
+        "points": [
+          "In this company, I was responsible for the installation of cable raceways, preparation of wiring, organizing materials required for projects worldwide, and connecting machines to control panels. To ensure the successful completion of each project, I was able to efficiently delegate tasks among team members and assign jobs as necessary. My duties included:",
+          "Installing wiring raceways, industrial control panels, devices, and sensors.",
+          "Preparing all cables and connecting them to machine boards.",
+          "Disassembling and repairing outdated systems."
+        ]
+      },
+      {
+        "title": "Aeronautical structural technician",
+        "company_name": "Leonardo",
+        "icon": "/src/assets/company/leonardo.png",
+        "iconBg": "#fff",
+        "date": "2017 - 2019",
+        "points": [
+          "As a certified F-35 structural technician, I have played a main role in the full-wing assembly line. My contribution in teamwork, coordination, and task assignment allowed our team to achieve a relevant goal in quality control and testing of the finished product. Thanks to my fast-growing experience and the support of the team members, we have successfully increased the average production from 2.7 modules per month to a remarkable 3.4 in just one year of continuous evolution.",
+          "My responsibilities include executing machining jobs in cascade phases, executing control checks on the final production line, training new workers on the production method, and researching new solutions to optimize the production phases' flow. I was confident in my abilities to perform these tasks and contribute to the team's success."
+        ]
+      },
+      {
+        "title": "Software Developer ",
+        "company_name": "Autoware",
+        "icon": "/src/assets/company/autoware.png",
+        "iconBg": "#383E56",
+        "date": "March 2019 – June 2020",
+        "points": [
+          "As a full stack web developer, I confidently improved and invested my expertise in Javascript, HTML5, CSS3, and SQL to build innovative web interfaces for MES and Integrated Systems through Thingworx, the web IoT platform based on Apache Tomcat server. My involvement in IoT projects was primarily based on agile methodology, and I efficiently managed tasks through Jira and Confluence."
+        ]
+      },
+      {
+        "title": "Automation Developer ",
+        "company_name": "Stema Service",
+        "icon": "/src/assets/company/stema.png",
+        "iconBg": "#383E56",
+        "date": "July 2020 – April 2023",
+        "points": [
+          "I successfully led the entire process of product development, including testing of the environment, on-site installation and commissioning of HMI and SCADA devices (Siemens and Rockwell) worldwide. ",
+          "Additionally, I dedicated significant resources into redesigning the external database, the data exchange method, and upgrading the data management interface for the entire production data management system."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "company_name": "Freelancer",
+        "icon": "/src/assets/free.jpeg",
+        "iconBg": "#fff",
+        "date": "April 2023 - Present",
+        "points": [
+          "Embracing the entrepreneurial spirit, I'm channeling my cumulative experience into creating cutting-edge solutions. My projects, like the e-commerce platform for a printing company, showcase my ability to integrate diverse technologies, from web development with WordPress and WooCommerce to crafting marketing strategies. This chapter is about pushing boundaries and exploring new horizons in tech."
+        ]
+      }
+    ],
+    "Technologies": [
+      {
+        "name": "HTML 5",
+        "icon": "/src/assets/tech/html.png"
+      },
+      {
+        "name": "CSS 3",
+        "icon": "/src/assets/tech/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/src/assets/tech/javascript.png"
+      },
+      {
+        "name": "React JS",
+        "icon": "/src/assets/tech/reactjs.png"
+      },
+      {
+        "name": "Redux Toolkit",
+        "icon": "/src/assets/tech/redux.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/src/assets/tech/tailwind.png"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/src/assets/tech/nodejs.png"
+      },
+      {
+        "name": "Postgresql",
+        "icon": "/src/assets/tech/psql.png"
+      },
+      {
+        "name": "Three JS",
+        "icon": "/src/assets/tech/threejs.svg"
+      },
+      {
+        "name": "git",
+        "icon": "/src/assets/tech/git.png"
+      }
+    ]
+  },
+  "Works": {
+    "Title": "Projects.",
+    "Description1": "MY WORK",
+    "Description2": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "Projects": [
+      {
+        "name": "Face Recognition Web App",
+        "description": "A showcase of my full-stack capabilities, combining the PERN stack with Clarifai's AI for a seamless user experience. This project reflects my ability to integrate complex technologies and prioritize user security.",
+        "tags": [
+          {
+            "name": "react",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "express",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "postgresql",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/PERNappDemoFrontend.gif",
+        "source_code_link": "https://facerecognitionapp-3t77.onrender.com"
+      },
+      {
+        "name": "Wp+Woo e-commerce with 100% custom product",
+        "description": "A minimalist yet powerful e-commerce site, demonstrating my proficiency in WordPress, WooCommerce, and online marketing. It's a testament to my ability to deliver tailored solutions that drive business success.",
+        "tags": [
+          {
+            "name": "WordPress",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "WooCommerce",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "Stripe",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/photocard.gif",
+        "source_code_link": "https://etichettephotocard.it/"
+      },
+      {
+        "name": "Newer are yet to come",
+        "description": "The next project could be yours, feel free to contact me anytime! :)",
+        "tags": [
+          {
+            "name": "react",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "restapi",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "mssql",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/WantYou.jpg",
+        "source_code_link": "https://www.linkedin.com/in/l3lackmarius/"
+      }
+    ]
+  },
+  "Feedbacks": {
+    "Title": "Testimonials.",
+    "Description": "WHAT OTHERS SAY",
+    "Technologies": [
+      {
+        "testimonial": "Be the first one, let's get in touch! :)",
+        "name": "Marius",
+        "designation": "Software Developer",
+        "company": "Freelancer",
+        "image": "https://avatars.githubusercontent.com/u/58807528?v=4"
+      }
+    ]
+  },
+  "Contact": {
+    "Title": "Contact.",
+    "Description": "GET IN TOUCH",
+    "Name": "Your Name",
+    "Nameplaceholder": "What's your name?",
+    "Email": "Your Email",
+    "Emailplaceholder": "What's your web address?",
+    "Message": "Your Message",
+    "Messageplaceholder": "What you want to say?",
+    "SubmitButtonText": "SEND",
+    "SubmittingButtonText": "SENDING"
+  }
+}

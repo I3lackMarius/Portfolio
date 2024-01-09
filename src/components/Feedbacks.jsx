@@ -6,6 +6,8 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
+import { useTranslation } from "react-i18next";
+
 const FeedbackCard = ({
   index,
   testimonial,
@@ -29,7 +31,7 @@ const FeedbackCard = ({
             <span className="blue-text-gradient">@</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} - {company}
           </p>
         </div>
 
@@ -44,19 +46,26 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const { t } = useTranslation("global");
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>{t("Feedbacks.Description")}</p>
+          <h2 className={styles.sectionHeadText}>{t("Feedbacks.Title")}</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+        {Object.entries(
+          t("Feedbacks.Technologies", { returnObjects: true })
+        ).map((testimonial, index) => (
+          <FeedbackCard
+            key={testimonial[1].name}
+            index={index}
+            {...testimonial[1]}
+          />
         ))}
       </div>
     </div>
@@ -64,3 +73,4 @@ const Feedbacks = () => {
 };
 
 export default SectionWrapper(Feedbacks, "Feedbacks");
+//

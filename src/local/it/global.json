@@ -1,11 +1,255 @@
 {
-  "header": {
-    "chooseLanguage": "Scegli la lingua:"
+  "Navbar": {
+    "Iam": "Sviluppatore JS",
+    "navLinks": {
+      "About": "Su di me",
+      "Experience": "Esperienza",
+      "Works": "Progetti",
+      "Feedbacks": "Dicono",
+      "Contact": "Contatti"
+    }
   },
-  "mainSection": {
-    "title": "Creando App React Multilingua con react-i18next: Una Guida Passo'Passo"
+  "Hero": {
+    "Iam": "Hey, sono ",
+    "Description1": "Uno sviluppatore autodidatta, che ",
+    "Description2": "costruisce interfacce utente e siti Web."
   },
-  "heroMe": {
-    "Iam": "Ciao, sono "
+  "About": {
+    "Title": "Su di me.",
+    "Description1": "Introduzione",
+    "Description2": "Benvenuto nel mio mondo di tecnologia, innovazione e competenza da autodidatta. Il mio viaggio nella tecnologia è iniziato da zero, guidato da curiosità ed un'incessante ricerca della conoscenza. Attraverso un insieme di ruoli formali e da autodidatta, ho creato un insieme di competenze uniche nello sviluppo web, gestione di database ed automazione del software. La mia passione sta nel trasformare idee complesse in realtà, utilizzando una combinazione di skills tecniche e problem-solving creativo.",
+    "Description3": "Unisciti a me nell'esplorazione delle infinite possibilità della tecnologia!",
+    "services": [
+      {
+        "title": "Sviluppatore Full Stack",
+        "icon": "/src/assets/tech/pern.webp"
+      },
+      {
+        "title": "Sviluppatore DB Relazionali",
+        "icon": "/src/assets/tech/DB.png"
+      },
+      {
+        "title": "Sviluppatore nodejs",
+        "icon": "/src/assets/tech/nodejs.png"
+      },
+      {
+        "title": "Sviluppatore React",
+        "icon": "/src/assets/tech/reactjs.png"
+      },
+      {
+        "title": "Sviluppatore Automation",
+        "icon": "/src/assets/tech/automation.png"
+      }
+    ]
+  },
+  "Experience": {
+    "Title": "Esperienza lavorativa.",
+    "Description": "Che cosa ho fatto finora",
+    "Experiences": [
+      {
+        "title": "Stagista ICT",
+        "company_name": "A Aeroporti Milano",
+        "icon": "/src/assets/company/sea.png",
+        "iconBg": "#E6DEDD",
+        "date": "2013",
+        "points": [
+          "Tirocinio scolastico in cui ho svolto varie attività sia lato hardware che software, come clonazione di sistemi operativi su diversi dispositivi aeroportuali, assemblaggio computer, assistenza tecnica, e ho investito i miei sforzi nella creazione di un'app che gestisse il server dati sulla intranet aeroportuale."
+        ]
+      },
+      {
+        "title": "Tecnico Elettronico",
+        "company_name": "Leonardo",
+        "icon": "/src/assets/company/leonardo.png",
+        "iconBg": "#E6DEDD",
+        "date": "2015 – 2016",
+        "points": [
+          "Come professionista nel mio campo, mi sono occupato principalmente dell'installazione dei cablaggi nelle tre sezioni di un elicottero. Era mio dovere assicurarmi che tutti i dispositivi elettronici responsabili della gestione dei sistemi idraulici, dei motori e dei sensori fossero installati e correttamente collegati ai comandi del sistema di cabina di pilotaggio. Inoltre, ero responsabile della verifica del corretto funzionamento di tutti i componenti elettronici coinvolti nella stabilizzazione dell'intera cabina degli elicotteri militari, privati e di soccorso AW139 durante la catena di montaggio finale."
+        ]
+      },
+      {
+        "title": "Tecnico Elettronico",
+        "company_name": "Bandera",
+        "icon": "/src/assets/company/bandera.png",
+        "iconBg": "#E6DEDD",
+        "date": "2016 – 2017",
+        "points": [
+          "In questa azienda ero responsabile dell'installazione delle canaline per cavi, della preparazione del cablaggio, dell'organizzazione dei materiali necessari per progetti in tutto il mondo e del collegamento delle macchine ai pannelli di controllo. Per garantire il completamento con successo di ogni progetto, sono stato in grado di delegare in modo efficiente i compiti tra i membri del team e assegnare i lavori secondo necessità. I miei compiti includevano: Installazione di canaline di cablaggio, quadri di controllo industriali, dispositivi e sensori. Preparazione di tutti i cavi e collegamento alle schede della macchina. Smontaggio e riparazione di sistemi obsoleti."
+        ]
+      },
+      {
+        "title": "Montatore strutturale aeronautico",
+        "company_name": "Leonardo",
+        "icon": "/src/assets/company/leonardo.png",
+        "iconBg": "#fff",
+        "date": "2017 - 2019",
+        "points": [
+          "In qualità di tecnico strutturale certificato dell'F-35, ho svolto un ruolo principale nella catena di montaggio dell'ala intera. Il mio contributo nel lavoro di squadra, nel coordinamento e nell'assegnazione dei compiti ha permesso al nostro team di raggiungere un obiettivo rilevante nel controllo qualità e nel collaudo del prodotto finito. Grazie alla propria esperienza in rapida crescita e al supporto dei membri del team, abbiamo aumentato con successo la produzione media da 2,7 moduli al mese a ben 3,4 in un solo anno di continua evoluzione. Le mie responsabilità includono l'esecuzione di lavori di lavorazione in fasi a cascata, l'esecuzione di controlli sulla linea di produzione finale, la formazione di nuovi lavoratori sul metodo di produzione e la ricerca di nuove soluzioni per ottimizzare il flusso delle fasi di produzione. ho acquisito molta confidenza nelle mie capacità per svolgere questi compiti e contribuire al successo del team."
+        ]
+      },
+      {
+        "title": "Svilluppatore Software",
+        "company_name": "Autoware",
+        "icon": "/src/assets/company/autoware.png",
+        "iconBg": "#383E56",
+        "date": "March 2019 – June 2020",
+        "points": [
+          "In qualità di sviluppatore web full stack, ho migliorato e investito con confidenza la propria esperienza in Javascript, HTML5, CSS3 e SQL per creare interfacce web innovative per MES e sistemi integrati attraverso Thingworx, la piattaforma IoT web basata sul server Apache Tomcat. Il mio coinvolgimento nei progetti IoT si basava principalmente sulla metodologia agile e ho gestito in modo efficiente le attività tramite Jira e Confluence."
+        ]
+      },
+      {
+        "title": "Automation Software Developer (SCADA/HMI)",
+        "company_name": "Stema Service",
+        "icon": "/src/assets/company/stema.png",
+        "iconBg": "#383E56",
+        "date": "July 2020 – April 2023",
+        "points": [
+          "I successfully led the entire product development process, including testing of the environment, on-site installation and commissioning of HMI and SCADA devices (Siemens and Rockwell) worldwide. Additionally, I dedicated significant resources into redesigning the external database, the data exchange method, and upgrading the data management interface for the entire production data management system."
+        ]
+      },
+      {
+        "title": "Sviluppatore web freelance",
+        "company_name": "Freelancer",
+        "icon": "/src/assets/free.jpeg",
+        "iconBg": "#fff",
+        "date": "April 2023 - Present",
+        "points": [
+          "Abbracciando lo spirito imprenditoriale, sto canalizzando la mia esperienza cumulativa nella creazione di soluzioni all'avanguardia. I miei progetti, come la piattaforma di e-commerce per un'azienda di stampa, mostrano la mia capacità di integrare diverse tecnologie, dallo sviluppo web con WordPress e WooCommerce alla gestione dei social media e la creazione di strategie di marketing. Questo capitolo riguarda l'ampliamento dei confini e l'esplorazione di nuovi orizzonti nel campo della tecnologia."
+        ]
+      }
+    ],
+    "Technologies": [
+      {
+        "name": "HTML 5",
+        "icon": "/src/assets/tech/html.png"
+      },
+      {
+        "name": "CSS 3",
+        "icon": "/src/assets/tech/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/src/assets/tech/javascript.png"
+      },
+      {
+        "name": "React JS",
+        "icon": "/src/assets/tech/reactjs.png"
+      },
+      {
+        "name": "Redux Toolkit",
+        "icon": "/src/assets/tech/redux.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/src/assets/tech/tailwind.png"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/src/assets/tech/nodejs.png"
+      },
+      {
+        "name": "Postgresql",
+        "icon": "/src/assets/tech/psql.png"
+      },
+      {
+        "name": "Three JS",
+        "icon": "/src/assets/tech/threejs.svg"
+      },
+      {
+        "name": "git",
+        "icon": "/src/assets/tech/git.png"
+      }
+    ]
+  },
+  "Works": {
+    "Title": "Projects.",
+    "Description1": "MY WORK",
+    "Description2": "Seguire i progetti mette in mostra le mie capacità ed esperienze attraverso esempi reali del mio lavoro. Ogni progetto viene brevemente descritto con collegamenti a repository di codice e demo live al suo interno. Riflette la mia capacità di risolvere problemi complessi, lavorare con diverse tecnologie e gestire progetti in modo efficace.",
+    "Projects": [
+      {
+        "name": "App Web Riconoscitore Facciale",
+        "description": "Una vetrina delle mie capacità full-stack, che combina lo stack PERN con l'intelligenza artificiale di Clarifai per un'esperienza utente fluida. Questo progetto riflette la mia capacità di integrare tecnologie complesse e dare priorità alla sicurezza degli utenti.",
+        "tags": [
+          {
+            "name": "react",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "express",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "postgresql",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/PERNappDemoFrontend.gif",
+        "source_code_link": "https://facerecognitionapp-3t77.onrender.com"
+      },
+      {
+        "name": "Wp+Woo e-commerce con configuratore prodotto al 100%",
+        "description": "Un sito di e-commerce minimalista ma potente, che dimostra la mia competenza in WordPress, WooCommerce e marketing online. È una testimonianza della mia capacità di fornire soluzioni su misura che guidano il successo aziendale.",
+        "tags": [
+          {
+            "name": "WordPress",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "WooCommerce",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "Stripe",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/photocard.gif",
+        "source_code_link": "https://etichettephotocard.it/"
+      },
+      {
+        "name": "Nuovi in arrivo",
+        "description": "Il prossimo progetto potrebbe essere tuo, sentiti libero di contattarmi in qualsiasi momento! :)",
+        "tags": [
+          {
+            "name": "react",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "restapi",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "mssql",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "image": "/src/assets/WantYou.jpg",
+        "source_code_link": "https://www.linkedin.com/in/l3lackmarius/"
+      }
+    ]
+  },
+  "Feedbacks": {
+    "Title": "Testimonianze.",
+    "Description": "Cosa dicono di me",
+    "Technologies": [
+      {
+        "testimonial": "Sii il primo, mettiamoci in contatto! :)",
+        "name": "Marius",
+        "designation": "Sviluppatore Software",
+        "company": "Freelancer",
+        "image": "https://avatars.githubusercontent.com/u/58807528?v=4"
+      }
+    ]
+  },
+  "Contact": {
+    "Title": "Contatti.",
+    "Description": "Mettiamoci in contatto",
+    "Name": "Il tuo Nome",
+    "Nameplaceholder": "Come ti chiami?",
+    "Email": "La tua Email",
+    "Emailplaceholder": "Qual'è la tua mail?",
+    "Message": "Il tuo Messaggio",
+    "Messageplaceholder": "Qual'è il tuo messaggio?",
+    "SubmitButtonText": "INVIA",
+    "SubmittingButtonText": "INVIANDO"
   }
 }
