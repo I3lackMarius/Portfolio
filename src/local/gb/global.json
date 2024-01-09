@@ -23,23 +23,23 @@
     "services": [
       {
         "title": "Full Stack Developer",
-        "icon": "../assets/tech/pern.webp"
+        "icon": "imgs/assets/tech/pern.webp"
       },
       {
         "title": "Relational DBs Developer",
-        "icon": "../assets/tech/DB.png"
+        "icon": "imgs/assets/tech/DB.png"
       },
       {
         "title": "nodejs Developer",
-        "icon": "../assets/tech/nodejs.png"
+        "icon": "imgs/assets/tech/nodejs.png"
       },
       {
         "title": "React Developer",
-        "icon": "../assets/tech/reactjs.png"
+        "icon": "imgs/assets/tech/reactjs.png"
       },
       {
         "title": "Automation Developer",
-        "icon": "../assets/tech/automation.png"
+        "icon": "imgs/assets/tech/automation.png"
       }
     ]
   },
@@ -50,7 +50,7 @@
       {
         "title": "ICT Internship",
         "company_name": "SEA Milan Airport",
-        "icon": "../assets/company/sea.png",
+        "icon": "imgs/assets/company/sea.png",
         "iconBg": "#E6DEDD",
         "date": "2013",
         "points": [
@@ -60,7 +60,7 @@
       {
         "title": "Avioelectric technician",
         "company_name": "Leonardo",
-        "icon": "../assets/company/leonardo.png",
+        "icon": "imgs/assets/company/leonardo.png",
         "iconBg": "#E6DEDD",
         "date": "2015 – 2016",
         "points": [
@@ -70,7 +70,7 @@
       {
         "title": "Electrical technician",
         "company_name": "Bandera",
-        "icon": "../assets/company/bandera.png",
+        "icon": "imgs/assets/company/bandera.png",
         "iconBg": "#E6DEDD",
         "date": "2016 – 2017",
         "points": [
@@ -83,7 +83,7 @@
       {
         "title": "Aeronautical structural technician",
         "company_name": "Leonardo",
-        "icon": "../assets/company/leonardo.png",
+        "icon": "imgs/assets/company/leonardo.png",
         "iconBg": "#fff",
         "date": "2017 - 2019",
         "points": [
@@ -94,7 +94,7 @@
       {
         "title": "Software Developer ",
         "company_name": "Autoware",
-        "icon": "../assets/company/autoware.png",
+        "icon": "imgs/assets/company/autoware.png",
         "iconBg": "#383E56",
         "date": "March 2019 – June 2020",
         "points": [
@@ -104,7 +104,7 @@
       {
         "title": "Automation Developer ",
         "company_name": "Stema Service",
-        "icon": "../assets/company/stema.png",
+        "icon": "imgs/assets/company/stema.png",
         "iconBg": "#383E56",
         "date": "July 2020 – April 2023",
         "points": [
@@ -115,7 +115,7 @@
       {
         "title": "Software Developer",
         "company_name": "Freelancer",
-        "icon": "../assets/free.jpeg",
+        "icon": "imgs/assets/free.jpeg",
         "iconBg": "#fff",
         "date": "April 2023 - Present",
         "points": [
@@ -126,43 +126,43 @@
     "Technologies": [
       {
         "name": "HTML 5",
-        "icon": "../assets/tech/html.png"
+        "icon": "imgs/assets/tech/html.png"
       },
       {
         "name": "CSS 3",
-        "icon": "../assets/tech/css.png"
+        "icon": "imgs/assets/tech/css.png"
       },
       {
         "name": "JavaScript",
-        "icon": "../assets/tech/javascript.png"
+        "icon": "imgs/assets/tech/javascript.png"
       },
       {
         "name": "React JS",
-        "icon": "../assets/tech/reactjs.png"
+        "icon": "imgs/assets/tech/reactjs.png"
       },
       {
         "name": "Redux Toolkit",
-        "icon": "../assets/tech/redux.png"
+        "icon": "imgs/assets/tech/redux.png"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "../assets/tech/tailwind.png"
+        "icon": "imgs/assets/tech/tailwind.png"
       },
       {
         "name": "Node JS",
-        "icon": "../assets/tech/nodejs.png"
+        "icon": "imgs/assets/tech/nodejs.png"
       },
       {
         "name": "Postgresql",
-        "icon": "../assets/tech/psql.png"
+        "icon": "imgs/assets/tech/psql.png"
       },
       {
         "name": "Three JS",
-        "icon": "../assets/tech/threejs.svg"
+        "icon": "imgs/assets/tech/threejs.svg"
       },
       {
         "name": "git",
-        "icon": "../assets/tech/git.png"
+        "icon": "imgs/assets/tech/git.png"
       }
     ]
   },
@@ -188,7 +188,7 @@
             "color": "pink-text-gradient"
           }
         ],
-        "image": "../assets/PERNappDemoFrontend.gif",
+        "image": "imgs/assets/PERNappDemoFrontend.gif",
         "source_code_link": "https://facerecognitionapp-3t77.onrender.com"
       },
       {
@@ -208,7 +208,7 @@
             "color": "pink-text-gradient"
           }
         ],
-        "image": "../assets/photocard.gif",
+        "image": "imgs/assets/photocard.gif",
         "source_code_link": "https://etichettephotocard.it/"
       },
       {
@@ -228,7 +228,7 @@
             "color": "pink-text-gradient"
           }
         ],
-        "image": "../assets/WantYou.jpg",
+        "image": "imgs/assets/WantYou.jpg",
         "source_code_link": "https://www.linkedin.com/in/l3lackmarius/"
       }
     ]
