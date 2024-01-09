@@ -3,7 +3,11 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
+  const { t } = useTranslation("global");
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -15,7 +19,8 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#5ed1ff]">Marius</span>
+            {t("heroMe.Iam")}
+            <span className="text-[#5ed1ff]">Marius</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A self-made dev, building <br className="sm:block hidden"></br>

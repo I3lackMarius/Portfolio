@@ -1,0 +1,11 @@
+{
+  "header": {
+    "chooseLanguage": "Scegli la lingua:"
+  },
+  "mainSection": {
+    "title": "Creando App React Multilingua con react-i18next: Una Guida Passo'Passo"
+  },
+  "heroMe": {
+    "Iam": "Ciao, sono "
+  }
+}

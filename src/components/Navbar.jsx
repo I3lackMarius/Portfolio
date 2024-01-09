@@ -6,9 +6,12 @@ import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import personal from "../assets/personal.png";
 
+import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const { t, i18n } = useTranslation("global");
 
   return (
     <nav
@@ -76,6 +79,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
+        <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+        <button onClick={() => i18n.changeLanguage("it")}>IT</button>
       </div>
     </nav>
   );
