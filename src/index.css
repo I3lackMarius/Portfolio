@@ -8,7 +8,7 @@ body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  cursor: url(mouse.png), auto;
+  cursor: url(assets/mouse.png), auto;
 }
 
 @keyframes fadeInAnimation {
