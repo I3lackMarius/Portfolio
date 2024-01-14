@@ -1,29 +1,27 @@
-import {
-  javascript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  git,
-  threejs,
-} from "../assets";
-import PERNappDemoFrontend from "../assets/PERNappDemoFrontend.gif";
-import photocard from "../assets/photocard.gif";
-import WantYou from "../assets/WantYou.jpg";
-import free from "../assets/free.jpeg";
-import psql from "../assets/tech/psql.png";
-import sea from "../assets/company/sea.png";
-import leonardo from "../assets/company/leonardo.png";
-import bandera from "../assets/company/bandera.png";
-import autoware from "../assets/company/autoware.png";
-import Photocard from "../assets/company/Photocard.png";
-import stema from "../assets/company/stema.png";
-import nodejs from "../assets/tech/nodejs.png";
-import pern from "../assets/tech/pern.webp";
-import DB from "../assets/tech/DB.png";
-import automation from "../assets/tech/automation.png";
-import ironman from "../assets/ironman.png";
+import javascript from "/assets/tech/javascript.png";
+import html from "/assets/tech/html.png";
+import css from "/assets/tech/css.png";
+import reactjs from "/assets/tech/reactjs.png";
+import redux from "/assets/tech/redux.png";
+import tailwind from "/assets/tech/tailwind.png";
+import git from "/assets/tech/git.png";
+import threejs from "/assets/tech/threejs.svg";
+import PERNappDemoFrontend from "/assets/PERNappDemoFrontend.gif";
+import photocard from "/assets/photocard.gif";
+import WantYou from "/assets/WantYou.jpg";
+import free from "/assets/free.jpeg";
+import psql from "/assets/tech/psql.png";
+import sea from "/assets/company/sea.png";
+import leonardo from "/assets/company/leonardo.png";
+import bandera from "/assets/company/bandera.png";
+import autoware from "/assets/company/autoware.png";
+import Photocard from "/assets/company/Photocard.png";
+import stema from "/assets/company/stema.png";
+import nodejs from "/assets/tech/nodejs.png";
+import pern from "/assets/tech/pern.webp";
+import DB from "/assets/tech/DB.png";
+import automation from "/assets/tech/automation.png";
+import ironman from "/assets/ironman.png";
 
 export const navLinks = [
   {

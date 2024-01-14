@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { menu, close } from "../assets";
-import personal from "../assets/personal.png";
+import menu from "/assets/menu.svg";
+import close from "/assets/close.svg";
+import personal from "/assets/personal.png";
 
 import { useTranslation } from "react-i18next";
 

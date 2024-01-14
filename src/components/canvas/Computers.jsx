@@ -1,15 +1,24 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-
+import { VideoTexture } from "three";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./laptop_holoscreen/scene.gltf");
+  const videoFile = "assets/PERNappDemoBackend.mp4";
+  const video = document.createElement("video");
+  video.src = videoFile;
+  video.crossOrigin = "anonymous";
+  video.loop = true;
+  video.muted = true;
+  video.play();
+  const videoTexture = new VideoTexture(video);
+
   return (
     <mesh>
       <hemisphereLight intensity={2} groundColor="black" />
-      <pointLight intensity={1} />
+      <pointLight intensity={50} />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -20,10 +29,19 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
+        scale={15}
+        position={isMobile ? [0, -3, -2.2] : [0, -2.25, -1.5]}
+        rotation={[0.5, 0, 0]}
+      >
+        <mesh
+          name="Schermo"
+          position={[0, 0.14, -0.112]}
+          rotation={[-0.23, 0, 0]}
+        >
+          <planeGeometry args={[0.35, 0.21, 1]} />
+          <meshStandardMaterial map={videoTexture} transparent />
+        </mesh>
+      </primitive>
     </mesh>
   );
 };
