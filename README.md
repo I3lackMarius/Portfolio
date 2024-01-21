@@ -15,8 +15,6 @@
 [Caratteristiche](#features)
 [Come iniziare](#quick-start)
 [Snippets](#snippets)
-[Link utili](#links)
-[Di più](#more)
 
 ## <a name="introduction">Introduzione</a>
 
