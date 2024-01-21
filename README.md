@@ -1,18 +1,3 @@
-Predisposizione progetto:
--creazione progetto con vite e react
-npm create vite@latest ./ -- --template react
-
--pacchetto tailwindcss
-npm install -D tailwindcss
-npx tailwindcss init
-
--pacchetti necessari a questo progettonpm install --legacy-peer-deps@react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
-npm install --legacy-peer-deps -D postcss autoprefixer
-
--pacchetto per integrare Tailwindcss in vite-plugin-react
-npm install --legacy-peer-deps -D postcss autoprefixer
-npx tailwindcss init -p
-
 <div align="center">
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
@@ -20,34 +5,25 @@ npx tailwindcss init -p
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A 3D Developer Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h3 align="center">Ecco il mio Portfolio 3D</h3>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
+[Introduzione](#introduction)
+[Stack Tecnologico](#tech-stack)
+[Caratteristiche](#features)
+[Come iniziare](#quick-start)
+[Snippets](#snippets)
+[Link utili](#links)
+[Di più](#more)
 
-## 🚨 Tutorial
+## <a name="introduction">Introduzione</a>
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+Questo progetto comprende libreire 3D ed animazioni, lo standard multilingua facilmente espandibile con le lingue desiderate, presenta uno stile minimale e si adatta ad ogni dispoistivo utilizzato.
 
-## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack"> Stack tecnologico</a>
 
 - React.js
 - Three.js
@@ -56,55 +32,51 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Email JS
 - Vite
 - Tailwind CSS
+- i18next
 
-## <a name="features">🔋 Features</a>
+## <a name="features">Caratteristiche</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+- **Facilmente personalizzabile**: I dati sono strutturati in modo semplice e minimale, in modo da essere facilmente modificati.
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+- **Effetti interattivi**: Utilizza animazioni basate sul framer motion per coinvolgere i visitatori in un'esperienza unica.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+- **Modelli 3D**: Integra modelli tridimensionali tramite three.js e React Three fiber, che siano i propri, o già creati da altri.
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+- **Sezione Contattaci**: Permette ai potenziali clienti di contattarti tramite un form minimale ma efficace basato sulla libreria emailjs.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+- **Design adattabile**: Garantisce una visibilità e funzionalità ottimale da ogni tipo di dispositivo venga visitato.
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+e non finiscono qui, ci sono tante altre caratteristiche interessanti come il facile riutilizzo del codice piuttosto che la sua architattura ben definita
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+## <a name="quick-start">Come iniziare</a>
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
+Segui i passaggi sottostanti per impostare il progetto localmente sulla propria macchina.
 
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
+**Prerequisiti**
 
 Make sure you have the following installed on your machine:
+Assicurati di avere installato sulla tua macchina:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+**Clona questa Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone git@github.com:I3lackMarius/portfolio.git
+cd [NomeCartellaProgetto]
 ```
 
-**Installation**
+**Installazione**
 
-Install the project dependencies using npm:
+Installa le dipendenze del progetto con npm:
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+**Imposta le variabili di sistema**
 
 Create a new file named `.env` in the root of your project and add the following content:
 
