@@ -78,7 +78,7 @@ npm install
 
 **Imposta le variabili di sistema**
 
-Create a new file named `.env` in the root of your project and add the following content:
+Crea un nuovo file chiamato `.env` nella root del tuo progetto e aggiungi il codice seguente:
 
 ```env
 REACT_APP_EMAILJS_USERID=your_emailjs_user_id
@@ -86,17 +86,17 @@ REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
 REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
 ```
 
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+Sostituisci i valori di esempio con le tue credenziali EmailJS. Se non sei registrato puoi farlo qui: [EmailJS](https://www.emailjs.com/).
 
-**Running the Project**
+**Avviare il progetto**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Apri [http://localhost:5173](http://localhost:5173) sul tuo motore di ricerca per visualizzare il progetto.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">Snippets</a>
 
 <details>
 <summary><code>constants.js</code></summary>
