@@ -1,14 +1,8 @@
 <div align="center">
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">Ecco il mio Portfolio 3D</h3>
+  <h3 align="center">Progetto Portfolio 3D</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 <a name="table">Contenuti</a>
 
 [Introduzione](#introduction)
 [Stack Tecnologico](#tech-stack)
@@ -62,7 +56,7 @@ Assicurati di avere installato sulla tua macchina:
 
 ```bash
 git clone git@github.com:I3lackMarius/portfolio.git
-cd [NomeCartellaProgetto]
+cd NomeCartellaProgetto
 ```
 
 **Installazione**
@@ -92,3 +86,11 @@ npm run dev
 ```
 
 Apri [http://localhost:5173](http://localhost:5173) sul tuo motore di ricerca per visualizzare il progetto.
+
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+</div>
