@@ -4,8 +4,8 @@ import ReactDOM from "react-dom/client";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 
-import global_gb from "./local/gb/global.json";
-import global_it from "./local/it/global.json";
+import global_gb from "./locales/gb/global.json";
+import global_it from "./locales/it/global.json";
 
 import App from "./App.jsx";
 import "./index.css";
