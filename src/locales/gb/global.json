@@ -121,6 +121,16 @@
         "points": [
           "Embracing the entrepreneurial spirit, I'm channeling my cumulative experience into creating cutting-edge solutions. My projects, like the e-commerce platform for a printing company, showcase my ability to integrate diverse technologies, from web development with WordPress and WooCommerce to crafting marketing strategies. This chapter is about pushing boundaries and exploring new horizons in tech."
         ]
+      },
+      {
+        "title": "PS consultant",
+        "company_name": "Esker",
+        "icon": "assets/company/Esker.png",
+        "iconBg": "#fff",
+        "date": "March 2024 - Present",
+        "points": [
+          "As a Professional Services Consultant at Esker, I collaborate closely with our valued customers and strategic partners to implement cutting-edge Esker solutions. My mission is to guide clients in making informed decisions during implementation, ensuring they maximize the benefits received and achieve a strong ROI."
+        ]
       }
     ],
     "Technologies": [
