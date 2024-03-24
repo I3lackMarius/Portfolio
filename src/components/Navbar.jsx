@@ -36,7 +36,7 @@ const Navbar = () => {
           <img
             src={personal}
             alt="personal"
-            className="w-14 h-14 object-contain"
+            className="w-14 h-14 object-cover rounded-full"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             <span className="sm:block hidden">{t("Navbar.Iam")}</span>
