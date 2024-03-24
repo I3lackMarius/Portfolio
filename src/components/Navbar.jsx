@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import menu from "/assets/menu.svg";
 import close from "/assets/close.svg";
-import personal from "/assets/personal.png";
+import personal from "/assets/ProfilePic.jpg";
 
 import { useTranslation } from "react-i18next";
 
