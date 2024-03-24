@@ -69,12 +69,23 @@ npm install
 
 **Imposta le variabili di sistema**
 
-Crea un nuovo file chiamato `.env` nella root del tuo progetto e aggiungi il codice seguente:
+Morifica il file `Contact.jsx` nella root `src/components/` del progetto come segue:
 
-```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+```Contact.jsx
+emailjs
+      .send(
+        "service_xxx", // <- insert here your emailjs service id
+        "template_yyy", // <- insert here your emailjs template id 
+        {
+          from_name: form.name,
+          to_name: "Your Name",
+          from_email: form.email,
+          to_email: "emailexample@example.com", // <- insert here your emailjs user id
+          message: form.message,
+        },
+        "publicKey" // <- insert here your emailjs publicKey
+      )
+      ...
 ```
 
 Sostituisci i valori di esempio con le tue credenziali EmailJS. Se non sei registrato puoi farlo qui: [EmailJS](https://www.emailjs.com/).
